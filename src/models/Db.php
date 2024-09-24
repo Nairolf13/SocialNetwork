@@ -2,10 +2,10 @@
 class Db
 {
     private static $instance;
-    private static $servername = "localhost";
-    private static $username = "root";
-    private static $password = "Florian*&$21051992";
-    private static $dbname  = "ReseauSocial";
+    private static $servername = "";
+    private static $username = "";
+    private static $password = "";
+    private static $dbname  = "";
 
     protected static function getInstance()
     {
